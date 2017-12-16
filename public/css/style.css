@@ -1,1 +1,19 @@
-body { padding-top:30px; }
+.custom-navbar-color{
+    background-color: purple !important;
+    border: 0ch !important;
+}
+.custom-navbar-color a{
+    color: white !important;
+    font-weight: bold !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.custom-navbar-color li:hover,.custom-navbar-color div:hover,.custom-navbar-color a:hover{
+    background-color:white !important;
+    color: purple !important;
+}
+hr{
+    height:1px;
+    border:none;
+    color:#333;
+    background-color:#333;
+}
