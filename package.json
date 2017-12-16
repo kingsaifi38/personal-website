@@ -1,23 +1,10 @@
 {
-  "name": "personal-website",
-  "version": "1.0.0",
-  "description": "Website for personal posts",
+  "name": "starter-node-angular",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kingsaifi38/personal-website.git"
-  },
-  "author": "Shadab Saifi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kingsaifi38/personal-website/issues"
-  },
-  "homepage": "https://github.com/kingsaifi38/personal-website#readme",
   "dependencies": {
-    "angularjs": "0.0.1",
-    "express": "^4.16.2"
+    "express": "~4.5.1",
+    "mongoose": "~3.8.0",
+    "body-parser": "~1.4.2",
+    "method-override": "~2.0.2"
   }
 }
