@@ -1,6 +1,6 @@
-# MEAN Stack Single Page Application Starter
+# MEAN Stack Personal Website
 
-This is a repo for a starter appliation for a Single Page MEAN Stack application. Just download and install and you have a good foundation for building application. 
+This is a Single Page MEAN Stack application.
 
 ## Installation
 1. Download the repository
