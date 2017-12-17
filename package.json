@@ -7,11 +7,9 @@
     "method-override": "~2.0.2",
     "mongoose": "~3.8.0",
     "open": "0.0.5",
-    
     "gulp": "^3.9.1"
   },
   "devDependencies": {
-    
     "gulp": "^3.9.1"
   }
 }

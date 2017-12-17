@@ -5,16 +5,20 @@
 	<meta charset="UTF-8">
 	<base href="/">
 
-	<title>Starter Node and Angular</title>
+	<title>S&A Personal</title>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/blog-home.css">
 	<!-- custom styles -->
 
 	<!-- JS -->
 	<script src="libs/angular/angular.min.js"></script>
 	<script src="libs/angular-route/angular-route.min.js"></script>
+	<script src="libs/jquery/dist/jquery.min.js"></script>
+	<script src="libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 	<!-- ANGULAR CUSTOM -->
 	<script src="js/controllers/HomeCtrl.js"></script>
@@ -27,24 +31,34 @@
 </head>
 
 <body ng-app="myapp">
-	<div>
-		<!-- HEADER -->
-		<nav class="navbar navbar-default navbar-fixed-top custom-navbar-color">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="/">Home</a>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="/">S&A Personal</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+			 aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="/team">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/contact">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/login">Login</a>
+					</li>
+				</ul>
 			</div>
-			<ul class="nav navbar-nav">
-				<li>
-					<a href="/team">Team</a>
-				</li>
-				<li>
-					<a href="/contact">Contact</a>
-				</li>
-			</ul>
-		</nav>
-		<!-- ANGULAR DYNAMIC CONTENT -->
-		<div ng-view></div>
-	</div>
+		</div>
+	</nav>
+	<div ng-view></div>
 </body>
+<footer class="py-5 bg-dark">
+	<div class="container">
+		<p class="m-0 text-center text-white">Copyright &copy; S&A Pesonal 2017</p>
+	</div>
+</footer>
 
 </html>
